@@ -13,16 +13,10 @@ function ResumeButton() {
       className="neon-glow-primary group"
       onClick={() => {
         toast({
-          title: "Downloading Resume",
-          description: "Your download will start shortly.",
+          title: "Opening Resume",
+          description: "Your resume will open in a new tab.",
         });
-        // This is a placeholder. In a real app, this would point to the actual file.
-        const link = document.createElement('a');
-        link.href = '/assets/Vineeth-Gattu-Resume.pdf';
-        link.download = 'Vineeth-Gattu-Resume.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        window.open('https://drive.google.com/uc?export=download&id=18As_7X5pMJn0P29TKBsNyn_o4wRoUsFm', '_blank');
       }}
     >
       <Download className="mr-2 h-5 w-5" />
