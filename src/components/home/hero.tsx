@@ -40,7 +40,7 @@ export default function Hero() {
           Passionate about scalable infrastructure. Cloud practitioner across AWS, Azure, and GCP; fully confident leading end-to-end AWS solutions.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button asChild size="lg" className="neon-glow-primary group">
+          <Button asChild size="lg" variant="outline" className="neon-glow-primary group">
             <Link href="/projects">
               View Projects
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
