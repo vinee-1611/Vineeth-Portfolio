@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight, Eye } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 function ResumeButton() {
@@ -11,16 +11,17 @@ function ResumeButton() {
     <Button
       size="lg"
       className="neon-glow-primary group"
+      variant="outline"
       onClick={() => {
         toast({
           title: "Opening Resume",
           description: "Your resume will open in a new tab.",
         });
-        window.open('https://drive.google.com/uc?export=download&id=18As_7X5pMJn0P29TKBsNyn_o4wRoUsFm', '_blank');
+        window.open('https://drive.google.com/file/d/18As_7X5pMJn0P29TKBsNyn_o4wRoUsFm/view?usp=sharing', '_blank');
       }}
     >
-      <Download className="mr-2 h-5 w-5" />
-      Download Resume
+      <Eye className="mr-2 h-5 w-5" />
+      View Resume
     </Button>
   );
 }
