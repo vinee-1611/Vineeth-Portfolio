@@ -3,11 +3,11 @@ import { Github, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const contactItems = [
-  { icon: MapPin, text: 'City, State' },
-  { icon: Mail, text: 'email@example.com', href: 'mailto:email@example.com' },
-  { icon: Phone, text: '(123) 456-7890', href: 'tel:1234567890' },
-  { icon: Github, text: 'GitHub', href: 'https://github.com' },
-  { icon: Linkedin, text: 'LinkedIn', href: 'https://linkedin.com' },
+  { icon: MapPin, text: 'Chittoor, Andhra Pradesh' },
+  { icon: Mail, text: 'vineethgattu065@gmail.com', href: 'mailto:vineethgattu065@gmail.com' },
+  { icon: Phone, text: '+91 9441450417', href: 'tel:+91 9441450417' },
+  { icon: Github, text: 'GitHub', href: 'https://github.com/vinee-1611' },
+  { icon: Linkedin, text: 'LinkedIn', href: 'https://www.linkedin.com/in/vineeth-gattu-a2a565390?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
 ];
 
 export default function PersonalInfo() {
