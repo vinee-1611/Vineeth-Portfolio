@@ -17,7 +17,7 @@ function ResumeButton() {
           title: "Opening Resume",
           description: "Your resume will open in a new tab.",
         });
-        window.open('https://drive.google.com/file/d/18As_7X5pMJn0P29TKBsNyn_o4wRoUsFm/view?usp=drive_link', '_blank');
+        window.open('https://drive.google.com/file/d/1J8C9maWbCK1bQTUe9csf8dkawuJHn0ax/view?usp=sharing', '_blank');
       }}
     >
       <Eye className="mr-2 h-5 w-5" />
